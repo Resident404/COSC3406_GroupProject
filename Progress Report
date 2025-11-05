@@ -1,2 +1,25 @@
-Progress Report
+*****PROGRESS REPORT******
 
+Brian, Sana, Randy
+
+We don't have anything except for the provided demos and our assignments.
+
+There will be no screenshots at this time....
+
+Going forward our plan is as follows:
+
+First, set up the engine from demo code ***
+  Make some modifications to the SceneGrpah demo code.
+    It already has a working implementation of a scene graph for updating and 
+    drawing nodes.
+    Adjust how transforms are implemented at the SceneNode level for smooth 
+    transformation. Change the Camera class to inherit from SceneNode 
+    so it may be placed into the scene hierarchy directly.
+
+Second, implement game specific classes (player, enemy, weapons, collectibles)  
+Third, implement collision system (ray-sphere, cube-cube, sphere-sphere, etc)
+
+Fourth, movement (player and other objects)
+  Get the player controls sorted and add some logic to the games "AI".
+
+Fifth add textures and particle effects to the game.
